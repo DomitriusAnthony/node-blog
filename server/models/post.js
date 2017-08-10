@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var Post = mongoose.model('Todo', {
-	text: {
+	body: {
 		type: String,
 		required: true,
 		minglength: 1,
